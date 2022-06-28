@@ -57,7 +57,8 @@ ansible all -m ping -i inventory.txt
  cd Demo-Ansible/
  ansible-playbook uninstall-apache-server.yaml -i inventory.txt
  ```
-  
+  ![image](https://user-images.githubusercontent.com/63657725/176108289-54acc6f4-b791-44b5-9def-add0d24ebced.png)
+
 
 
 
