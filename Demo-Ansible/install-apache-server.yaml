@@ -1,0 +1,40 @@
+-
+    name: Play1
+    hosts: localhost
+    tasks:
+        - name: Execute command date
+          command: date
+-
+    name: Play2
+    hosts: target1
+    tasks:
+        - name: install httpd service
+          yum:
+            name: httpd
+            state: present
+        - name: add index.html
+          copy:
+            src: /home/ec2-user/target1/index.html
+            dest: /var/www/html/index.html
+        - name: start httpd
+          service:
+            name: httpd
+            state: started
+
+
+-
+    name: Play3
+    hosts: target2
+    tasks:
+        - name: install httpd service
+          yum:
+            name: httpd
+            state: present
+        - name: add index.html
+          copy:
+            src: /home/ec2-user/target2/index.html
+            dest: /var/www/html/index.html
+        - name: start httpd
+          service:
+            name: httpd
+            state: started
