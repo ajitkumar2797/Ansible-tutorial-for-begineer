@@ -4,7 +4,7 @@ Swtich to Root User
 sudo su
 
 ```bash
-cd Install Ansbile/
+cd Install-Ansbile/
 chmod +x script.sh
 sh script.sh
 ```
