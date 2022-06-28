@@ -32,8 +32,7 @@ cd Demo-Ansible/
 cat inventory.txt
 
 # ansible all -m ping -i inventory.txt
-![image](https://user-images.githubusercontent.com/63657725/176107281-ded3f441-a271-477e-aa40-d11128290d38.png)
-
 ```
+![image](https://user-images.githubusercontent.com/63657725/176107281-ded3f441-a271-477e-aa40-d11128290d38.png)
 
  
