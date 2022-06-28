@@ -17,6 +17,8 @@ yum update -y
 yum install ansible -y 
 ansible --version
 ```
+![image](https://user-images.githubusercontent.com/63657725/176108690-f376e72d-7d03-4b69-b3d5-cffbbab07b9b.png)
+
 
 # Demo: Install Apache web server on Target 1 and Target 2 machines
 
