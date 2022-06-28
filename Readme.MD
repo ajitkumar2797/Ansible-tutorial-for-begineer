@@ -31,8 +31,33 @@ cp -r Demo-Ansible/webpage-files /home/ec2-user/
 cd Demo-Ansible/
 cat inventory.txt
 
-# ansible all -m ping -i inventory.txt
+# To perfomr a ping test to the Target machines:
+ansible all -m ping -i inventory.txt
 ```
 ![image](https://user-images.githubusercontent.com/63657725/176107281-ded3f441-a271-477e-aa40-d11128290d38.png)
 
  
+ 3. Install Apache web server on the Target Machines
+ 
+ ```bash
+ cd Demo-Ansible/
+ 
+ ansible-playbook install-apache-server.yaml -i inventory.txt
+ ```
+ ![image](https://user-images.githubusercontent.com/63657725/176107805-f97f7dd6-0e3a-484e-a65f-c3c0d2994c9b.png)
+ 
+ The web Page will look like this:
+ ![image](https://user-images.githubusercontent.com/63657725/176107939-d97ff958-ca0c-447b-b518-d069d680bf8e.png)
+ 
+ 
+ 
+# Demo: Uninstall Apache web server on Target 1 and Target 2 machines
+
+``` bash
+ cd Demo-Ansible/
+ ansible-playbook uninstall-apache-server.yaml -i inventory.txt
+ ```
+  
+
+
+
