@@ -49,6 +49,7 @@ ansible all -m ping -i inventory.txt
  ![image](https://user-images.githubusercontent.com/63657725/176107805-f97f7dd6-0e3a-484e-a65f-c3c0d2994c9b.png)
  
  The web Page will look like this:
+ 
  ![image](https://user-images.githubusercontent.com/63657725/176107939-d97ff958-ca0c-447b-b518-d069d680bf8e.png)
  
  
