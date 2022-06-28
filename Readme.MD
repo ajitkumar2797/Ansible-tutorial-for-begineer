@@ -20,9 +20,9 @@ ansible --version
 ![image](https://user-images.githubusercontent.com/63657725/176108690-f376e72d-7d03-4b69-b3d5-cffbbab07b9b.png)
 
 # 3. Enable key-based authentication between Master and worker nodes
-
-    - https://www.youtube.com/watch?v=RfolgB-rVe8
-
+```
+     https://www.youtube.com/watch?v=RfolgB-rVe8
+```
 
 
 
