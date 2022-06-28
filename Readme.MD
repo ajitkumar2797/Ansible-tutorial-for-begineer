@@ -1,4 +1,4 @@
-# Install Ansbile using script.sh
+# 1. Install Ansbile using script.sh
 
 Swtich to Root User 
 sudo su
@@ -9,7 +9,7 @@ chmod +x script.sh
 sh script.sh
 ```
 
-# Install Ansible using cmd 
+# 2. Install Ansible using cmd 
 
 ```bash
 sudo su
@@ -19,8 +19,14 @@ ansible --version
 ```
 ![image](https://user-images.githubusercontent.com/63657725/176108690-f376e72d-7d03-4b69-b3d5-cffbbab07b9b.png)
 
+# 3. Enable key-based authentication between Master and worker nodes
 
-# Demo: Install Apache web server on Target 1 and Target 2 machines
+    - https://www.youtube.com/watch?v=RfolgB-rVe8
+
+
+
+
+# 4. Demo: Install Apache web server on Target 1 and Target 2 machines
 
 1. Copy the index.htmls files in the following path.
 ```bash
@@ -54,7 +60,7 @@ ansible all -m ping -i inventory.txt
  
  
  
-# Demo: Uninstall Apache web server on Target 1 and Target 2 machines
+# 5. Demo: Uninstall Apache web server on Target 1 and Target 2 machines
 
 ``` bash
  cd Demo-Ansible/
